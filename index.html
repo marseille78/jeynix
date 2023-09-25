@@ -9,12 +9,63 @@
   <meta content="IE=edge" http-equiv="X-UA-Compatible" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
-  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;family=Open+Sans:wght@400;700&amp;display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&amp;family=Play:wght@700&amp;display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body class="page">
-  <h1>Home page</h1>
+  <h1 class="page__main-title">Jeynix
+  </h1>
+  <!-- START .sidebar-->
+  <div class="sidebar">
+    <div class="sidebar__top">
+      <a class="sidebar__logo" href="/">
+        <img src="./img/logo.svg" alt="logo" />
+      </a>
+      <div class="sidebar__lang">
+        <button class="sidebar__lang-item" type="button" data-toggle-lang="en">en
+        </button>
+        <button class="sidebar__lang-item" type="button" data-toggle-lang="ua">ua
+        </button>
+      </div>
+    </div>
+    <div class="sidebar__bottom">
+      <!-- START .social-->
+      <ul class="social">
+        <li class="social__item">
+          <a class="social__link" href="https://www.facebook.com/Jeynixvfx">
+            <i class="icon-facebook"></i>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="https://www.linkedin.com/in/joni-nemir-a50794262/">
+            <i class="icon-linkedin"></i>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--youtube" href="https://www.youtube.com/@jeynixyoutube/videos">
+            <i class="icon-youtube"></i>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="https://www.tiktok.com/@jeynixvfx">
+            <i class="icon-tiktok"></i>
+          </a>
+        </li>
+      </ul>
+      <!-- END .social-->
+      <button class="sidebar__toggle-theme">
+        <img src="./img/nightMode.svg" alt="button toggle theme" />
+      </button>
+    </div>
+  </div>
+  <!-- END .sidebar-->
+  <main class="page__main" role="main">
+    <section class="page__section">
+      <h2>Section</h2>
+    </section>
+  </main>
 </body>
+<script src="js/main.js"></script>
 
 </html>
