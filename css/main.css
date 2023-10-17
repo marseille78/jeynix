@@ -906,7 +906,7 @@ body.scroll .page__top-slogan {
 }
 
 .sidebar__toggle-theme::after {
-  content: "Go to contacts";
+  content: "Contact us";
   display: block;
   position: absolute;
   top: 0;
